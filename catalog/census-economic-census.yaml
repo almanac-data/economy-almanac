@@ -1,0 +1,38 @@
+id: census-economic-census
+title: Economic Census
+description: The U.S. government's official five-year measure of American business — counts and statistics
+  for businesses and the economy by industry and geography.
+publisher: U.S. Census Bureau
+topics:
+- business
+- industry
+- establishments
+- economic-census
+source:
+  canonical_url: https://www.census.gov/programs-surveys/economic-census.html
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- html
+- csv
+coverage:
+  spatial: United States
+  temporal: 1997-present (every 5 years)
+  cadence: irregular
+license: public-domain (US Gov work)
+attribution: U.S. Census Bureau, Economic Census
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: Conducted every five years (years ending in 2 and 7).

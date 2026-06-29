@@ -1,42 +1,49 @@
 {
-  "name": "Example Almanac",
-  "description": "An open, versioned index of public example data.",
-  "count": 1,
+  "name": "Economy Almanac",
+  "description": "An open, versioned index of public economic data.",
+  "count": 4,
   "by_status": {
-    "live": 1
+    "live": 4
   },
   "entries": [
     {
-      "id": "example-dataset",
-      "title": "Example Dataset (replace this with a real entry)",
-      "description": "A placeholder catalog entry so the index builds and CI passes on a fresh template. Delete this file once you have added your first real dataset.\n",
-      "publisher": "Example Agency",
+      "id": "bea-data",
+      "title": "Bureau of Economic Analysis (BEA) Data",
+      "description": "The U.S. Bureau of Economic Analysis's data portal — GDP, personal income and outlays, the National Income and Product Accounts, international trade and investment, and regional economic accounts.",
+      "publisher": "U.S. Bureau of Economic Analysis (BEA)",
       "topics": [
-        "example"
+        "gdp",
+        "income",
+        "trade",
+        "national-accounts",
+        "regional"
       ],
       "source": {
-        "canonical_url": "https://example.org",
+        "canonical_url": "https://www.bea.gov/data",
         "predecessor_url": null,
         "doi": null
       },
       "access": {
         "method": [
-          "web"
+          "web",
+          "api"
         ],
         "auth_required": false,
-        "auth_note": null,
+        "auth_note": "Free BEA API registration key for the API; web portal and bulk files are open.",
         "rate_limit": null
       },
       "format": [
-        "html"
+        "csv",
+        "json",
+        "xlsx"
       ],
       "coverage": {
-        "spatial": "global",
-        "temporal": "n/a",
-        "cadence": "static"
+        "spatial": "United States",
+        "temporal": "1929-present (varies by account)",
+        "cadence": "quarterly"
       },
-      "license": "CC0-1.0",
-      "attribution": "Example Agency",
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Bureau of Economic Analysis",
       "archive": {
         "wayback_url": null,
         "cloud_mirror": null,
@@ -45,7 +52,149 @@
       "status": "live",
       "last_checked": "2026-06-29",
       "checksum": null,
-      "notes": "This is a template stub. See SETUP.md for how to stand up your own almanac vertical, then replace this entry with real datasets.\n"
+      "notes": null
+    },
+    {
+      "id": "census-economic-census",
+      "title": "Economic Census",
+      "description": "The U.S. government's official five-year measure of American business — counts and statistics for businesses and the economy by industry and geography.",
+      "publisher": "U.S. Census Bureau",
+      "topics": [
+        "business",
+        "industry",
+        "establishments",
+        "economic-census"
+      ],
+      "source": {
+        "canonical_url": "https://www.census.gov/programs-surveys/economic-census.html",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "html",
+        "csv"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "1997-present (every 5 years)",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Census Bureau, Economic Census",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-29",
+      "checksum": null,
+      "notes": "Conducted every five years (years ending in 2 and 7)."
+    },
+    {
+      "id": "census-economic-indicators",
+      "title": "U.S. Census Bureau Economic Indicators",
+      "description": "Principal economic indicators from the Census Bureau — retail and wholesale trade, manufacturing (M3), construction spending, new residential construction, and international trade in goods and services.",
+      "publisher": "U.S. Census Bureau",
+      "topics": [
+        "trade",
+        "manufacturing",
+        "construction",
+        "retail",
+        "indicators"
+      ],
+      "source": {
+        "canonical_url": "https://www.census.gov/economic-indicators/",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": "Free Census Data API key for programmatic access.",
+        "rate_limit": null
+      },
+      "format": [
+        "html",
+        "csv",
+        "json"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "varies by indicator",
+        "cadence": "monthly"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Census Bureau",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-29",
+      "checksum": null,
+      "notes": null
+    },
+    {
+      "id": "treasury-fiscal-data",
+      "title": "Treasury Fiscal Data",
+      "description": "The U.S. Treasury's open platform for federal financial data — the public debt, daily Treasury statements, federal revenue and spending, and interest rates.",
+      "publisher": "U.S. Department of the Treasury, Bureau of the Fiscal Service",
+      "topics": [
+        "federal-finance",
+        "debt",
+        "revenue",
+        "spending",
+        "fiscal"
+      ],
+      "source": {
+        "canonical_url": "https://fiscaldata.treasury.gov/",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json",
+        "xml"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "varies by dataset",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Department of the Treasury, Fiscal Data",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-29",
+      "checksum": null,
+      "notes": "Open REST API, no key required."
     }
   ]
 }
