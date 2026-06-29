@@ -1,5 +1,8 @@
 # Economy Almanac
 
+[![CI](https://github.com/almanac-data/economy-almanac/actions/workflows/ci.yml/badge.svg)](https://github.com/almanac-data/economy-almanac/actions/workflows/ci.yml)
+[![good first issues](https://img.shields.io/github/issues/almanac-data/economy-almanac/good%20first%20issue?label=good%20first%20issues&color=7057ff)](https://github.com/almanac-data/economy-almanac/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+
 **An open, versioned index of public economic data — so the record stays findable when the websites move.**
 
 Economy Almanac is a **catalog, not a data warehouse**. Each entry is a small, human-reviewed,
