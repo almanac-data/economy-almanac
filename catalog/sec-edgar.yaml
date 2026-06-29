@@ -1,0 +1,41 @@
+id: sec-edgar
+title: SEC EDGAR
+description: The SEC's Electronic Data Gathering, Analysis, and Retrieval system — public company financial
+  filings (10-K, 10-Q, 8-K and more), with full-text search and a REST API.
+publisher: U.S. Securities and Exchange Commission (SEC)
+topics:
+- filings
+- corporate-finance
+- disclosures
+- securities
+source:
+  canonical_url: https://www.sec.gov/edgar
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- html
+- xml
+- json
+coverage:
+  spatial: United States
+  temporal: 1994-present
+  cadence: daily
+license: public-domain (US Gov work)
+attribution: U.S. Securities and Exchange Commission, EDGAR
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: Public REST API at data.sec.gov; bulk filing archives. sec.gov 403s non-browser agents — the checker
+  retries with a browser UA.
