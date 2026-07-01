@@ -4,6 +4,9 @@ title: Business Formation Statistics
 description: Census Bureau timeseries on new business applications and formations — a high-frequency indicator
   of entrepreneurship and economic dynamism.
 publisher: U.S. Census Bureau
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - business-formation
 - entrepreneurship

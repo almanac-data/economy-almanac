@@ -4,6 +4,9 @@ title: U.S. Census Bureau Economic Indicators
 description: Principal economic indicators from the Census Bureau — retail and wholesale trade, manufacturing
   (M3), construction spending, new residential construction, and international trade in goods and services.
 publisher: U.S. Census Bureau
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - trade
 - manufacturing

@@ -4,6 +4,9 @@ title: Bureau of Economic Analysis (BEA) Data
 description: The U.S. Bureau of Economic Analysis's data portal — GDP, personal income and outlays, the
   National Income and Product Accounts, international trade and investment, and regional economic accounts.
 publisher: U.S. Bureau of Economic Analysis (BEA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - gdp
 - income

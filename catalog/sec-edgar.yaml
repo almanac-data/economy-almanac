@@ -4,6 +4,9 @@ title: SEC EDGAR
 description: The SEC's Electronic Data Gathering, Analysis, and Retrieval system — public company financial
   filings (10-K, 10-Q, 8-K and more), with full-text search and a REST API.
 publisher: U.S. Securities and Exchange Commission (SEC)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - filings
 - corporate-finance

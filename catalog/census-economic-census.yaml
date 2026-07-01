@@ -4,6 +4,9 @@ title: Economic Census
 description: The U.S. government's official five-year measure of American business — counts and statistics
   for businesses and the economy by industry and geography.
 publisher: U.S. Census Bureau
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - business
 - industry

@@ -12,6 +12,10 @@
       "title": "Bureau of Economic Analysis (BEA) Data",
       "description": "The U.S. Bureau of Economic Analysis's data portal — GDP, personal income and outlays, the National Income and Product Accounts, international trade and investment, and regional economic accounts.",
       "publisher": "U.S. Bureau of Economic Analysis (BEA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "gdp",
         "income",
@@ -62,6 +66,10 @@
       "title": "BEA International Trade & Investment",
       "description": "BEA's data on US international transactions — trade in goods and services, the balance of payments, and direct investment positions.",
       "publisher": "U.S. Bureau of Economic Analysis (BEA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "trade",
         "investment",
@@ -110,6 +118,10 @@
       "title": "Business Formation Statistics",
       "description": "Census Bureau timeseries on new business applications and formations — a high-frequency indicator of entrepreneurship and economic dynamism.",
       "publisher": "U.S. Census Bureau",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "business-formation",
         "entrepreneurship",
@@ -158,6 +170,10 @@
       "title": "Economic Census",
       "description": "The U.S. government's official five-year measure of American business — counts and statistics for businesses and the economy by industry and geography.",
       "publisher": "U.S. Census Bureau",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "business",
         "industry",
@@ -206,6 +222,10 @@
       "title": "U.S. Census Bureau Economic Indicators",
       "description": "Principal economic indicators from the Census Bureau — retail and wholesale trade, manufacturing (M3), construction spending, new residential construction, and international trade in goods and services.",
       "publisher": "U.S. Census Bureau",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "trade",
         "manufacturing",
@@ -256,6 +276,10 @@
       "title": "SEC EDGAR",
       "description": "The SEC's Electronic Data Gathering, Analysis, and Retrieval system — public company financial filings (10-K, 10-Q, 8-K and more), with full-text search and a REST API.",
       "publisher": "U.S. Securities and Exchange Commission (SEC)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "filings",
         "corporate-finance",
@@ -306,6 +330,10 @@
       "title": "Treasury Fiscal Data",
       "description": "The U.S. Treasury's open platform for federal financial data — the public debt, daily Treasury statements, federal revenue and spending, and interest rates.",
       "publisher": "U.S. Department of the Treasury, Bureau of the Fiscal Service",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "federal-finance",
         "debt",

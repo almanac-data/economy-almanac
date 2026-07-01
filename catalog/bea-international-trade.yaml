@@ -4,6 +4,9 @@ title: BEA International Trade & Investment
 description: BEA's data on US international transactions — trade in goods and services, the balance of
   payments, and direct investment positions.
 publisher: U.S. Bureau of Economic Analysis (BEA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - trade
 - investment

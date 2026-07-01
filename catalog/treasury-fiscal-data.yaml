@@ -4,6 +4,9 @@ title: Treasury Fiscal Data
 description: The U.S. Treasury's open platform for federal financial data — the public debt, daily Treasury
   statements, federal revenue and spending, and interest rates.
 publisher: U.S. Department of the Treasury, Bureau of the Fiscal Service
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - federal-finance
 - debt
