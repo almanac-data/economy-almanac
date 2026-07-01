@@ -1,4 +1,5 @@
 id: census-business-formation
+type: dataset
 title: Business Formation Statistics
 description: Census Bureau timeseries on new business applications and formations — a high-frequency indicator
   of entrepreneurship and economic dynamism.
@@ -10,8 +11,6 @@ topics:
 - indicators
 source:
   canonical_url: https://www.census.gov/econ/bfs/index.html
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -22,17 +21,20 @@ access:
 format:
 - html
 - csv
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: 2004-present
   cadence: monthly
 license: public-domain (US Gov work)
 attribution: U.S. Census Bureau, Business Formation Statistics
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: null

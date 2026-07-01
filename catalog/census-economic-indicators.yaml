@@ -1,4 +1,5 @@
 id: census-economic-indicators
+type: dataset
 title: U.S. Census Bureau Economic Indicators
 description: Principal economic indicators from the Census Bureau — retail and wholesale trade, manufacturing
   (M3), construction spending, new residential construction, and international trade in goods and services.
@@ -11,8 +12,6 @@ topics:
 - indicators
 source:
   canonical_url: https://www.census.gov/economic-indicators/
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -24,17 +23,20 @@ format:
 - html
 - csv
 - json
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: varies by indicator
   cadence: monthly
 license: public-domain (US Gov work)
 attribution: U.S. Census Bureau
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: null

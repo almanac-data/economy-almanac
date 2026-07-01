@@ -1,4 +1,5 @@
 id: bea-international-trade
+type: dataset
 title: BEA International Trade & Investment
 description: BEA's data on US international transactions — trade in goods and services, the balance of
   payments, and direct investment positions.
@@ -10,8 +11,6 @@ topics:
 - international
 source:
   canonical_url: https://www.bea.gov/data/intl-trade-investment
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -22,17 +21,20 @@ access:
 format:
 - csv
 - json
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: 1999-present
   cadence: quarterly
 license: public-domain (US Gov work)
 attribution: U.S. Bureau of Economic Analysis
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: null
