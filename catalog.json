@@ -8,6 +8,7 @@
   "entries": [
     {
       "id": "bea-data",
+      "type": "dataset",
       "title": "Bureau of Economic Analysis (BEA) Data",
       "description": "The U.S. Bureau of Economic Analysis's data portal — GDP, personal income and outlays, the National Income and Product Accounts, international trade and investment, and regional economic accounts.",
       "publisher": "U.S. Bureau of Economic Analysis (BEA)",
@@ -19,9 +20,7 @@
         "regional"
       ],
       "source": {
-        "canonical_url": "https://www.bea.gov/data",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.bea.gov/data"
       },
       "access": {
         "method": [
@@ -37,6 +36,17 @@
         "json",
         "xlsx"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1929-present (varies by account)",
@@ -44,18 +54,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Bureau of Economic Analysis",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "bea-international-trade",
+      "type": "dataset",
       "title": "BEA International Trade & Investment",
       "description": "BEA's data on US international transactions — trade in goods and services, the balance of payments, and direct investment positions.",
       "publisher": "U.S. Bureau of Economic Analysis (BEA)",
@@ -66,9 +69,7 @@
         "international"
       ],
       "source": {
-        "canonical_url": "https://www.bea.gov/data/intl-trade-investment",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.bea.gov/data/intl-trade-investment"
       },
       "access": {
         "method": [
@@ -83,6 +84,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1999-present",
@@ -90,18 +102,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Bureau of Economic Analysis",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "census-business-formation",
+      "type": "dataset",
       "title": "Business Formation Statistics",
       "description": "Census Bureau timeseries on new business applications and formations — a high-frequency indicator of entrepreneurship and economic dynamism.",
       "publisher": "U.S. Census Bureau",
@@ -112,9 +117,7 @@
         "indicators"
       ],
       "source": {
-        "canonical_url": "https://www.census.gov/econ/bfs/index.html",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.census.gov/econ/bfs/index.html"
       },
       "access": {
         "method": [
@@ -129,6 +132,17 @@
         "html",
         "csv"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "2004-present",
@@ -136,18 +150,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Census Bureau, Business Formation Statistics",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "census-economic-census",
+      "type": "dataset",
       "title": "Economic Census",
       "description": "The U.S. government's official five-year measure of American business — counts and statistics for businesses and the economy by industry and geography.",
       "publisher": "U.S. Census Bureau",
@@ -158,9 +165,7 @@
         "economic-census"
       ],
       "source": {
-        "canonical_url": "https://www.census.gov/programs-surveys/economic-census.html",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.census.gov/programs-surveys/economic-census.html"
       },
       "access": {
         "method": [
@@ -175,6 +180,17 @@
         "html",
         "csv"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1997-present (every 5 years)",
@@ -182,18 +198,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Census Bureau, Economic Census",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Conducted every five years (years ending in 2 and 7)."
     },
     {
       "id": "census-economic-indicators",
+      "type": "dataset",
       "title": "U.S. Census Bureau Economic Indicators",
       "description": "Principal economic indicators from the Census Bureau — retail and wholesale trade, manufacturing (M3), construction spending, new residential construction, and international trade in goods and services.",
       "publisher": "U.S. Census Bureau",
@@ -205,9 +214,7 @@
         "indicators"
       ],
       "source": {
-        "canonical_url": "https://www.census.gov/economic-indicators/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.census.gov/economic-indicators/"
       },
       "access": {
         "method": [
@@ -223,6 +230,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "varies by indicator",
@@ -230,18 +248,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Census Bureau",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "sec-edgar",
+      "type": "dataset",
       "title": "SEC EDGAR",
       "description": "The SEC's Electronic Data Gathering, Analysis, and Retrieval system — public company financial filings (10-K, 10-Q, 8-K and more), with full-text search and a REST API.",
       "publisher": "U.S. Securities and Exchange Commission (SEC)",
@@ -252,9 +263,7 @@
         "securities"
       ],
       "source": {
-        "canonical_url": "https://www.sec.gov/edgar",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.sec.gov/edgar"
       },
       "access": {
         "method": [
@@ -271,6 +280,17 @@
         "xml",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1994-present",
@@ -278,18 +298,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Securities and Exchange Commission, EDGAR",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Public REST API at data.sec.gov; bulk filing archives. sec.gov 403s non-browser agents — the checker retries with a browser UA."
     },
     {
       "id": "treasury-fiscal-data",
+      "type": "dataset",
       "title": "Treasury Fiscal Data",
       "description": "The U.S. Treasury's open platform for federal financial data — the public debt, daily Treasury statements, federal revenue and spending, and interest rates.",
       "publisher": "U.S. Department of the Treasury, Bureau of the Fiscal Service",
@@ -301,9 +314,7 @@
         "fiscal"
       ],
       "source": {
-        "canonical_url": "https://fiscaldata.treasury.gov/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://fiscaldata.treasury.gov/"
       },
       "access": {
         "method": [
@@ -319,6 +330,17 @@
         "json",
         "xml"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "varies by dataset",
@@ -326,14 +348,6 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Department of the Treasury, Fiscal Data",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Open REST API, no key required."
     }
   ]
