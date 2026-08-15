@@ -1,9 +1,9 @@
 {
   "name": "Economy Almanac",
   "description": "An open, versioned index of public economic data.",
-  "count": 7,
+  "count": 8,
   "by_status": {
-    "live": 7
+    "live": 8
   },
   "entries": [
     {
@@ -106,6 +106,57 @@
       "coverage": {
         "spatial": "United States",
         "temporal": "1999-present",
+        "cadence": "quarterly"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Bureau of Economic Analysis",
+      "notes": null
+    },
+    {
+      "id": "bea-regional",
+      "type": "dataset",
+      "title": "Bureau of Economic Analysis (BEA) Regional Economic Accounts",
+      "description": "The U.S. Bureau of Economic Analysis's regional economic accounts, providing GDP and personal income data by state and county.",
+      "publisher": "U.S. Bureau of Economic Analysis (BEA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "gdp",
+        "income",
+        "regional"
+      ],
+      "source": {
+        "canonical_url": "https://www.bea.gov/data/economic-accounts/regional"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": "Free BEA API registration key for the API; web portal and bulk files are open.",
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-08-13",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-08-15",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": []
+      },
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "1929-present (varies by account)",
         "cadence": "quarterly"
       },
       "license": "public-domain (US Gov work)",
