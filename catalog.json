@@ -44,7 +44,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bea.gov/data",
@@ -96,7 +96,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bea.gov/data/intl-trade-investment",
@@ -148,11 +148,12 @@
       "status_since": "2026-08-13",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-08-15",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
-        "redirect_chain": []
+        "checked": "2026-09-12",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.bea.gov/data/economic-accounts/regional",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States",
@@ -199,7 +200,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/econ/bfs/index.html",
@@ -251,7 +252,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/programs-surveys/economic-census.html",
@@ -305,7 +306,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/economic-indicators/",
@@ -359,7 +360,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 403,
         "final_url": "https://www.sec.gov/edgar",
@@ -413,7 +414,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://fiscaldata.treasury.gov/",
