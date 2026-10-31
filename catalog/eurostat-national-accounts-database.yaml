@@ -1,0 +1,45 @@
+id: eurostat-national-accounts-database
+type: dataset
+title: Eurostat National Accounts Database
+description: |
+  Eurostat's official EU national accounts — GDP and its components, sector accounts, government finance, supply-use and input-output tables, and regional accounts — harmonised under ESA 2010 across EU member states.
+publisher: Eurostat (European Commission)
+jurisdiction:
+  scope: regional-bloc
+  country: null
+topics:
+- gdp
+- national-accounts
+- government-finance
+- europe
+source:
+  canonical_url: https://ec.europa.eu/eurostat/web/national-accounts/database
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- tsv
+- xlsx
+- sdmx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: EU member states (plus some EFTA and candidate countries); NUTS regions for regional accounts
+  temporal: varies by dataset
+  cadence: quarterly
+license: CC-BY-4.0 (Eurostat copyright notice and free re-use of data)
+attribution: Eurostat
+notes: |
+  Human-verified 2026-10-31 in headless Chromium: HTTP 200, page "NATIONAL ACCOUNTS Database" with selected and detailed datasets and a data revisions section. Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. The ESA 2010 framing and the quarterly cadence for main aggregates come from Eurostat's usual metadata and weren't checked here. The generic /web/economy/database URL returned 404, so this entry uses the national accounts theme.
