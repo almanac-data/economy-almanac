@@ -37,7 +37,8 @@ coverage:
   spatial: about 200 reporting countries
   temporal: multiple decades (annual and monthly series)
   cadence: monthly
-license: unverified — free access tier with premium bulk downloads; terms page did not render this session
+license: UN Comtrade License Agreement — copyright reserved; redistribution, automated downloading and commercial exploitation need prior written UN permission (see notes)
 attribution: United Nations Comtrade Database (UN Statistics Division)
 notes: |
-  Human-verified 2026-10-31: HTTP 200. The page advertises "Free access to detailed global trade data". It describes coverage of "approximately 200 countries" and "more than 99% of the world's merchandise trade", and marks Bulk Download "Premium subscription required". The terms page (uncomtrade.org/docs/terms-and-conditions/) rendered no text, so the license is unverified. The free versus premium API tiers come from Comtrade's usual documentation and weren't checked.
+  Human-verified 2026-10-31: HTTP 200. The page advertises "Free access to detailed global trade data". It describes coverage of "approximately 200 countries" and "more than 99% of the world's merchandise trade", and marks Bulk Download "Premium subscription required". The free versus premium API tiers come from Comtrade's usual documentation and weren't checked.
+  Licence checked 2026-10-31: the UN Comtrade License Agreement (https://comtradeplus.un.org/LicenseAgreement) binds anyone "subscribing to the United Nations COMTRADE or using UN Comtrade without subscription", and says "any copying, automated browsing or downloading, redistribution, publication, or commercial exploitation of any material contained on or otherwise made available to you on United Nations COMTRADE is strictly prohibited without the prior written permission of the United Nations." The old terms page (uncomtrade.org/docs/terms-and-conditions/) no longer exists. It is cataloged for authority; reusers should read the agreement.

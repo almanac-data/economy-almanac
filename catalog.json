@@ -211,9 +211,9 @@
         "temporal": "varies by series",
         "cadence": "irregular"
       },
-      "license": "BIS terms — copyright reserved; download and reproduction permitted for non-commercial purposes with citation (see notes)",
+      "license": "BIS terms of permitted use of statistics — use unrestricted with citation; a commercial product must not charge extra for the statistics (see notes)",
       "attribution": "Bank for International Settlements (BIS) statistics",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The page shows the release calendar (releases dated 29 Oct 2026), a statistics catalogue, and \"The BIS SDMX API web service offers programmatic access to data and metadata\". BIS terms (https://www.bis.org/about/terms-conditions) say all rights in \"publications and statistical data\" are owned by the BIS. Users may download, display, and reproduce BIS Material \"for non-commercial purposes\", and the separate limited-extract permission explicitly excludes statistics from the BIS Data Portal. It is cataloged because it is authoritative; reusers should read the terms. A steward may want to confirm whether a more permissive statistics licence exists.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page shows the release calendar (releases dated 29 Oct 2026), a statistics catalogue, and \"The BIS SDMX API web service offers programmatic access to data and metadata\".\nLicence checked 2026-10-31: BIS's general terms (https://www.bis.org/about/terms-conditions) send the Data Portal to its own terms: \"Users may use the statistics published in the BIS Data Portal in accordance with the terms set out under the heading 'About BIS statistics'\". Those terms (https://data.bis.org/help/legal, \"Terms of permitted use of BIS statistics\") say \"The use of the statistics is unrestricted, provided that\" the BIS is cited, no endorsement is implied, and, in a commercial publication or product, the statistics' inclusion \"will not result in any additional charge to subscribers or other users\"; \"No other use is permissible.\" The API has its own terms on the same page. The non-commercial limit recorded here earlier came from the general website terms, which do not govern the Data Portal.\n"
     },
     {
       "id": "census-business-formation",
@@ -581,9 +581,9 @@
         "temporal": "multiple decades (annual and monthly series)",
         "cadence": "monthly"
       },
-      "license": "unverified — free access tier with premium bulk downloads; terms page did not render this session",
+      "license": "UN Comtrade License Agreement — copyright reserved; redistribution, automated downloading and commercial exploitation need prior written UN permission (see notes)",
       "attribution": "United Nations Comtrade Database (UN Statistics Division)",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The page advertises \"Free access to detailed global trade data\". It describes coverage of \"approximately 200 countries\" and \"more than 99% of the world's merchandise trade\", and marks Bulk Download \"Premium subscription required\". The terms page (uncomtrade.org/docs/terms-and-conditions/) rendered no text, so the license is unverified. The free versus premium API tiers come from Comtrade's usual documentation and weren't checked.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page advertises \"Free access to detailed global trade data\". It describes coverage of \"approximately 200 countries\" and \"more than 99% of the world's merchandise trade\", and marks Bulk Download \"Premium subscription required\". The free versus premium API tiers come from Comtrade's usual documentation and weren't checked.\nLicence checked 2026-10-31: the UN Comtrade License Agreement (https://comtradeplus.un.org/LicenseAgreement) binds anyone \"subscribing to the United Nations COMTRADE or using UN Comtrade without subscription\", and says \"any copying, automated browsing or downloading, redistribution, publication, or commercial exploitation of any material contained on or otherwise made available to you on United Nations COMTRADE is strictly prohibited without the prior written permission of the United Nations.\" The old terms page (uncomtrade.org/docs/terms-and-conditions/) no longer exists. It is cataloged for authority; reusers should read the agreement.\n"
     },
     {
       "id": "world-bank-world-development-indicators",
