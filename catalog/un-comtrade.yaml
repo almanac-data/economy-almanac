@@ -1,0 +1,43 @@
+id: un-comtrade
+type: dataset
+title: UN Comtrade Database
+description: |
+  The United Nations' global database of detailed annual and monthly merchandise trade statistics by product and trading partner, covering about 200 countries and more than 99% of world merchandise trade.
+publisher: United Nations Statistics Division (UNSD), Department of Economic and Social Affairs
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- trade
+- merchandise-trade
+- hs-codes
+- global
+source:
+  canonical_url: https://comtradeplus.un.org/
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: Quick and advanced search are free; bulk download requires a premium subscription; the API has free and premium tiers.
+  rate_limit: null
+format:
+- csv
+- json
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: about 200 reporting countries
+  temporal: multiple decades (annual and monthly series)
+  cadence: monthly
+license: unverified — free access tier with premium bulk downloads; terms page did not render this session
+attribution: United Nations Comtrade Database (UN Statistics Division)
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page advertises "Free access to detailed global trade data". It describes coverage of "approximately 200 countries" and "more than 99% of the world's merchandise trade", and marks Bulk Download "Premium subscription required". The terms page (uncomtrade.org/docs/terms-and-conditions/) rendered no text, so the license is unverified. The free versus premium API tiers come from Comtrade's usual documentation and weren't checked.
