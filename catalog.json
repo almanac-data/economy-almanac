@@ -1,9 +1,9 @@
 {
   "name": "Economy Almanac",
   "description": "An open, versioned index of public economic data.",
-  "count": 10,
+  "count": 11,
   "by_status": {
-    "live": 10
+    "live": 11
   },
   "entries": [
     {
@@ -162,6 +162,58 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Bureau of Economic Analysis",
       "notes": null
+    },
+    {
+      "id": "bis-data-portal",
+      "type": "dataset",
+      "title": "BIS Data Portal",
+      "description": "The Bank for International Settlements' statistics, compiled with central banks: international banking (locational and consolidated), debt securities, credit to the non-financial sector, property prices, exchange rates, central bank policy rates, and consumer prices, with an SDMX API.\n",
+      "publisher": "Bank for International Settlements (BIS)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
+      "topics": [
+        "banking",
+        "credit",
+        "exchange-rates",
+        "financial-stability",
+        "global"
+      ],
+      "source": {
+        "canonical_url": "https://data.bis.org/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "sdmx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global (reporting central banks and national authorities)",
+        "temporal": "varies by series",
+        "cadence": "irregular"
+      },
+      "license": "BIS terms — copyright reserved; download and reproduction permitted for non-commercial purposes with citation (see notes)",
+      "attribution": "Bank for International Settlements (BIS) statistics",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page shows the release calendar (releases dated 29 Oct 2026), a statistics catalogue, and \"The BIS SDMX API web service offers programmatic access to data and metadata\". BIS terms (https://www.bis.org/about/terms-conditions) say all rights in \"publications and statistical data\" are owned by the BIS. Users may download, display, and reproduce BIS Material \"for non-commercial purposes\", and the separate limited-extract permission explicitly excludes statistics from the BIS Data Portal. It is cataloged because it is authoritative; reusers should read the terms. A steward may want to confirm whether a more permissive statistics licence exists.\n"
     },
     {
       "id": "census-business-formation",
