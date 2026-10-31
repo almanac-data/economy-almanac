@@ -1,0 +1,44 @@
+id: world-bank-world-development-indicators
+type: dataset
+title: World Bank World Development Indicators (WDI)
+description: |
+  The World Bank's primary collection of cross-country development data: over 1,500 economic, social, and environmental indicators for more than 200 countries and territories, spanning decades.
+publisher: World Bank
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- development
+- gdp
+- poverty
+- global
+source:
+  canonical_url: https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- xlsx
+- json
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global (200+ countries and territories)
+  temporal: 1960-2025
+  cadence: irregular
+license: CC-BY-4.0
+attribution: World Bank, World Development Indicators
+notes: |
+  Human-verified 2026-10-31 in headless Chromium: HTTP 200. The data catalog page describes "over 1,500 indicators covering more than 200 countries and territories". It shows Temporal Coverage 1960 - 2025, Periodicity Annual, version 131 (metadata updated Oct 12, 2026), and "License: Creative Commons Attribution 4.0". The cadence is irregular because WDI is refreshed several times a year, although each series is annual. Energy-almanac's world-bank-energy-mining entry is a topic slice of this same database.
