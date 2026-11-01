@@ -1,9 +1,9 @@
 {
   "name": "Economy Almanac",
   "description": "An open, versioned index of public economic data.",
-  "count": 14,
+  "count": 15,
   "by_status": {
-    "live": 14
+    "live": 15
   },
   "entries": [
     {
@@ -214,6 +214,54 @@
       "license": "BIS terms of permitted use of statistics — use unrestricted with citation; a commercial product must not charge extra for the statistics (see notes)",
       "attribution": "Bank for International Settlements (BIS) statistics",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page shows the release calendar (releases dated 29 Oct 2026), a statistics catalogue, and \"The BIS SDMX API web service offers programmatic access to data and metadata\".\nLicence checked 2026-10-31: BIS's general terms (https://www.bis.org/about/terms-conditions) send the Data Portal to its own terms: \"Users may use the statistics published in the BIS Data Portal in accordance with the terms set out under the heading 'About BIS statistics'\". Those terms (https://data.bis.org/help/legal, \"Terms of permitted use of BIS statistics\") say \"The use of the statistics is unrestricted, provided that\" the BIS is cited, no endorsement is implied, and, in a commercial publication or product, the statistics' inclusion \"will not result in any additional charge to subscribers or other users\"; \"No other use is permissible.\" The API has its own terms on the same page. The non-commercial limit recorded here earlier came from the general website terms, which do not govern the Data Portal.\n"
+    },
+    {
+      "id": "boe-database",
+      "type": "dataset",
+      "title": "Bank of England Database",
+      "description": "The Bank of England's database of published statistical series: Bank Rate history, interest rates, exchange rates, yield curves, money and credit, effective and quoted household and business interest rates, and capital issuance, which users can browse, chart and export.\n",
+      "publisher": "Bank of England",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "GB"
+      },
+      "topics": [
+        "interest-rates",
+        "money",
+        "banking",
+        "exchange-rates",
+        "uk"
+      ],
+      "source": {
+        "canonical_url": "https://www.bankofengland.co.uk/boeapps/database/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United Kingdom (exchange rates against GBP, EUR and USD)",
+        "temporal": "varies by series",
+        "cadence": "daily"
+      },
+      "license": "OGL-UK-3.0 (Bank of England legal page, \"Bank of England Database\" section; selected third-party exchange rate series excluded)",
+      "attribution": "Bank of England Database (copyright the Governor and Company of the Bank of England)",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium). The page reads \"Browse, visualise and export the data series published by the Bank of England\" and \"Database last updated on 30 October 2026 at 10:00\", with quick links to \"GBP daily spot rates\", \"Official Bank Rate history\", \"Yield curves\" and visual summaries of money and credit statistics. Export is offered, but I did not test the export formats, so none are listed; no API was checked. Daily cadence reflects the daily exchange and interest rate series; money and credit statistics are monthly.\nLicence checked 2026-11-01: the Bank's legal page (https://www.bankofengland.co.uk/legal), \"Bank of England Database\" section, says \"The information made available via the Database is the copyright of the Governor and Company of the Bank, unless otherwise stated. Reproduction of data in the Database is subject to the terms of the UK Open Government Licence, allowing and encouraging free and flexible data reuse.\" It adds that \"selected exchange rate data and series are excluded from this licence as they are reproduced by the Bank under licence from third parties\", that Isle of Man, Guernsey and Jersey MFI data belong to those authorities, and it gives a specific attribution statement for SONIA data. The site's general terms (non-commercial personal use) do not apply to the Database, which has its own terms.\n"
     },
     {
       "id": "census-business-formation",
