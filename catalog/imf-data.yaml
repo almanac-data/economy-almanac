@@ -27,9 +27,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://data.imf.org/en
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: global (IMF member countries and country groups)
   temporal: varies by dataset (WEO 1980 to present plus five years of projections)
