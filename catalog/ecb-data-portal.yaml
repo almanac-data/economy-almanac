@@ -1,0 +1,44 @@
+id: ecb-data-portal
+type: dataset
+title: ECB Data Portal
+description: |
+  The European Central Bank's statistical data portal: euro area monetary aggregates, interest rates, inflation, ECB reference exchange rates, financial markets, external sector, and banking supervision statistics, with an SDMX REST API and refreshable Excel downloads.
+publisher: European Central Bank (ECB)
+jurisdiction:
+  scope: regional-bloc
+  country: null
+topics:
+- monetary-policy
+- interest-rates
+- exchange-rates
+- euro-area
+source:
+  canonical_url: https://data.ecb.europa.eu/
+access:
+  method:
+  - web
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- sdmx
+- xlsx
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: euro area and EU member states (exchange rates against the euro)
+  temporal: varies by series
+  cadence: daily
+license: ECB copyright — free use with accurate reproduction, ECB cited as the source, and modifications stated (ECB Disclaimer & copyright; not a named open licence)
+attribution: European Central Bank, ECB Data Portal
+notes: |
+  Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium). The home page shows key figures, "Inflation rate September 2026 3.8 %", "Monetary aggregate M3 September 2026 3.5 %" and "US dollar 30 October 2026 1.1172", and links to API help (https://data.ecb.europa.eu/help/api/overview) and refreshable Excel downloads. A test call to https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?lastNObservations=1&format=csvdata returned HTTP 200 CSV with the 2026-10-30 reference rate 1.1172, without a key. xlsx stands for the refreshable Excel download, which I did not test. The data cart and login are optional.
+  Licence checked 2026-11-01: the portal footer links "Disclaimer & Copyright" to https://www.ecb.europa.eu/services/disclaimer/html/index.en.html, which redirects to /services/using-our-site/disclaimer/html/index.en.html. It says "Copyright © for the entire content of this website: European Central Bank", and "users of this website may make free use of the information obtained directly from it subject to the following conditions: When such information is distributed or reproduced, it must appear accurately and the ECB must be cited as the source. If the information is modified by the user (e.g. by seasonal adjustment of statistical data or calculation of growth rates) this must be stated explicitly." The exception for named-author documents (working papers) does not concern the data. This is the ECB website's general notice; no portal-specific data licence was found.
