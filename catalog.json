@@ -44,7 +44,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bea.gov/data",
@@ -96,7 +96,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bea.gov/data/intl-trade-investment",
@@ -148,11 +148,12 @@
       "status_since": "2026-08-13",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-08-15",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
-        "redirect_chain": []
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.bea.gov/data/economic-accounts/regional",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States",
@@ -201,10 +202,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data.bis.org/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "global (reporting central banks and national authorities)",
@@ -250,9 +253,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.bankofengland.co.uk/boeapps/database/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United Kingdom (exchange rates against GBP, EUR and USD)",
@@ -299,9 +304,9 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
-        "http_status": 200,
+        "http_status": 500,
         "final_url": "https://www.census.gov/econ/bfs/index.html",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
@@ -351,7 +356,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/programs-surveys/economic-census.html",
@@ -405,7 +410,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/economic-indicators/",
@@ -459,9 +464,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data.ecb.europa.eu/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "euro area and EU member states (exchange rates against the euro)",
@@ -511,10 +518,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://ec.europa.eu/eurostat/web/national-accounts/database",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "EU member states (plus some EFTA and candidate countries); NUTS regions for regional accounts",
@@ -559,9 +568,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://fred.stlouisfed.org/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (with international and regional series)",
@@ -606,9 +617,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data.imf.org/en",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "global (IMF member countries and country groups)",
@@ -657,9 +670,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data-explorer.oecd.org/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "OECD member countries and selected partner economies",
@@ -708,9 +723,9 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
-        "http_status": 403,
+        "http_status": 200,
         "final_url": "https://www.sec.gov/edgar",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
@@ -762,7 +777,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://fiscaldata.treasury.gov/",
@@ -815,10 +830,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://comtradeplus.un.org/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "about 200 reporting countries",
@@ -866,9 +883,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://wid.world/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "global (countries, subnational regions and world regions)",
@@ -917,10 +936,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "global (200+ countries and territories)",
