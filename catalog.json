@@ -1,9 +1,9 @@
 {
   "name": "Economy Almanac",
   "description": "An open, versioned index of public economic data.",
-  "count": 17,
+  "count": 18,
   "by_status": {
-    "live": 17
+    "live": 18
   },
   "entries": [
     {
@@ -524,6 +524,53 @@
       "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
       "attribution": "Eurostat",
       "notes": "Human-verified 2026-10-31 in headless Chromium: HTTP 200, page \"NATIONAL ACCOUNTS Database\" with selected and detailed datasets and a data revisions section. Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. The ESA 2010 framing and the quarterly cadence for main aggregates come from Eurostat's usual metadata and weren't checked here. The generic /web/economy/database URL returned 404, so this entry uses the national accounts theme.\n"
+    },
+    {
+      "id": "fred",
+      "type": "dataset",
+      "title": "FRED (Federal Reserve Economic Data)",
+      "description": "The Federal Reserve Bank of St. Louis's database of US and international economic time series from many sources (BLS, BEA, the Federal Reserve Board, Census and others), with graphs, a release calendar, and a free-key API. It is now the main route to many Federal Reserve Board series as the Board's Data Download Program is retired.\n",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "macroeconomics",
+        "time-series",
+        "interest-rates",
+        "api"
+      ],
+      "source": {
+        "canonical_url": "https://fred.stlouisfed.org/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": "The website needs no account; the FRED API needs a free API key.",
+        "rate_limit": null
+      },
+      "format": [],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (with international and regional series)",
+        "temporal": "varies by series",
+        "cadence": "daily"
+      },
+      "license": "FRED Legal Notices — free for non-commercial, educational and personal use with citation; per-series copyright status (\"Public Domain - Citation requested\", \"Copyrighted - Citation required\", \"Copyrighted - Pre-approval required\") governs further use",
+      "attribution": "[Original source] via FRED, Federal Reserve Bank of St. Louis (use the citation in each series' notes)",
+      "notes": "Human-verified 2026-11-01: HTTP 200 in headless Chromium. curl failed this session with \"HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR\"; the issue reported no response on 2026-10-31. The page reads \"FRED Economic Data. Your trusted source for economic data since 1991\", with a banner: \"FRED will undergo scheduled maintenance on November 3, 2026, from 5 to 6 PM Central Time.\" News items include \"FRED Adds Median Inflation Data from the Cleveland Fed\". The API documentation (https://fred.stlouisfed.org/docs/api/fred) links to \"API Keys\"; a keyless call to https://api.stlouisfed.org/fred/series?series_id=GDP&file_type=json returned HTTP 400, consistent with a required key. The Federal Reserve Bank of St. Louis is a regional Reserve Bank, not a federal agency, so FRED as a whole is not treated as public domain. Not checked: download formats, rate limits.\nLicence checked 2026-11-01: FRED's Legal Notices (https://fred.stlouisfed.org/legal/) say \"FRED provides data and data services to the public for non-commercial, educational, and personal uses subject to a few prohibitions. Furthermore, other uses (e.g., commercial) are subject to additional restrictions.\" There are \"three (3) types of data series copyright status\": \"Copyrighted: Pre-approval required\" (third-party series \"may only be used for non-commercial educational or personal use\" without the holder's permission), \"Copyrighted: Citation required\", and \"Public Domain: Citation requested\". Under \"IV. Commercial Use\", the latter two \"may be used for internal commercial uses and may be displayed in textbooks, newsletters, or reports to clients provided that appropriate attribution is given to FRED as well as the original source\". Check each series' status before reuse.\n"
     },
     {
       "id": "imf-data",
