@@ -1,9 +1,9 @@
 {
   "name": "Economy Almanac",
   "description": "An open, versioned index of public economic data.",
-  "count": 16,
+  "count": 17,
   "by_status": {
-    "live": 16
+    "live": 17
   },
   "entries": [
     {
@@ -524,6 +524,53 @@
       "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
       "attribution": "Eurostat",
       "notes": "Human-verified 2026-10-31 in headless Chromium: HTTP 200, page \"NATIONAL ACCOUNTS Database\" with selected and detailed datasets and a data revisions section. Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. The ESA 2010 framing and the quarterly cadence for main aggregates come from Eurostat's usual metadata and weren't checked here. The generic /web/economy/database URL returned 404, so this entry uses the national accounts theme.\n"
+    },
+    {
+      "id": "imf-data",
+      "type": "dataset",
+      "title": "IMF Data (World Economic Outlook, IFS and other datasets)",
+      "description": "The International Monetary Fund's data portal: the World Economic Outlook database (twice-yearly projections), Fiscal Monitor, International Financial Statistics, balance of payments, COFER reserves, Financial Access Survey and other macroeconomic and financial datasets, with a data explorer, an API and an Excel add-in.\n",
+      "publisher": "International Monetary Fund (IMF)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
+      "topics": [
+        "macroeconomics",
+        "balance-of-payments",
+        "forecasts",
+        "global"
+      ],
+      "source": {
+        "canonical_url": "https://data.imf.org/en"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global (IMF member countries and country groups)",
+        "temporal": "varies by dataset (WEO 1980 to present plus five years of projections)",
+        "cadence": "irregular"
+      },
+      "license": "IMF Copyright and Usage, Special Terms for Statistical Data — reuse and derivatives allowed with attribution; commercial reuse needs IMF permission (copyright@imf.org); automated bulk download needs permission (not a named open licence)",
+      "attribution": "International Monetary Fund, [dataset name], IMF Data (data.imf.org)",
+      "notes": "Human-verified 2026-11-01 in headless Chromium: HTTP 200. curl got 403, as the issue reported on 2026-10-31. https://data.imf.org/ redirects to https://data.imf.org/en, which is cataloged. The page reads \"ACCESS TO ECONOMIC AND FINANCIAL DATA\", with Data Explorer, Datasets and Release Calendar sections. It lists \"World Economic Outlook October 2026\" (WEO \"Date last updated: Oct 12, 2026\", \"published twice a year in April and October\", \"Data are available from 1980 to the present, and projections for most data series are provided for the next five years\"), the Fiscal Monitor (updated Oct 13, 2026) and COFER. It links an API page (https://data.imf.org/en/Resource-Pages/IMF-API) and an Excel add-in; I read neither, so whether the API needs a key, and its formats, are unchecked. A \"SIGN IN\" link exists; viewing the data needed no sign-in.\nLicence checked 2026-11-01: the portal's \"COPYRIGHT AND USAGE\" link (https://www.imf.org/external/terms.htm) redirects to https://www.imf.org/en/About/copyright-and-terms, which returned an Akamai 403 to curl and headless Chromium, so I read it through WebFetch only. Under \"Special Terms for Statistical Data\" (covering IFS, BOP, DOTS, GFS, the WEO database and other IMF statistics) it says \"Users may download, extract, copy, create derivative works, publish, distribute, and use Data\", \"Distributed or reproduced Data must appear accurately with attribution to the IMF as the source\", \"If IMF Data is sold by Users as a standalone product, sellers must inform purchasers\" that it is free from the IMF, and \"For any potential commercial reuse of IMF Data, email copyright@imf.org to request permission\". The general terms add \"The IMF prohibits bulk download of information by automated technology without explicit permission\". The WebFetch tool summarised parts of the page, so a steward should confirm the exact wording in a browser.\n"
     },
     {
       "id": "oecd-data-explorer-economy",
