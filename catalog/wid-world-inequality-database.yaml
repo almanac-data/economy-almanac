@@ -1,0 +1,43 @@
+id: wid-world-inequality-database
+type: dataset
+title: WID — World Inequality Database
+description: |
+  The World Inequality Lab's open-access database of income and wealth distribution series by country and region, built by combining national accounts, survey and fiscal data under its Distributional National Accounts (DINA) methods, with national accounts aggregates and carbon emissions inequality series.
+publisher: World Inequality Lab
+jurisdiction:
+  scope: international-ngo
+  country: null
+topics:
+- inequality
+- income
+- wealth
+- distributional-national-accounts
+- global
+source:
+  canonical_url: https://wid.world/
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global (countries, subnational regions and world regions)
+  temporal: varies by country and series
+  cadence: irregular
+license: unverified — wid.world calls its datasets "open-access" but no licence or terms of use was found on the site or in the bulk download's README
+attribution: WID — World Inequality Database (wid.world)
+notes: |
+  Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium). The home page reads "Download our open-access datasets" and "Reference data to track economic inequality at the global level, within countries and over time. Based on the systematic combination of national accounts, survey and fiscal data", with news dated October 26, 2026. The data page (https://wid.world/data/) has a "DOWNLOAD FULL DATASET" button and mentions a Stata package. The bulk file https://wid.world/bulk_download/wid_all_data.zip answered HTTP 200 (application/zip, about 887 MB, last-modified 30 Oct 2026). I read its file list and README with range requests rather than downloading it: 848 files, WID_data_XX.csv and WID_metadata_XX.csv per country/region plus WID_countries.csv, semicolon-separated. Not checked: an API (the R and Stata packages suggest one), start years, update cadence.
+  Licence checked 2026-11-01: not verified. The footer links Contact us, Website credits, FAQ and a privacy policy (https://wid.world/privacy-policy-and-use-of-personal-data/); no data licence or terms of use was found on the home or data pages. The README in the bulk zip describes file structure only and states no licence. "Open-access" is the site's word and is not a licence.
