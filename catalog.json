@@ -1,9 +1,9 @@
 {
   "name": "Economy Almanac",
   "description": "An open, versioned index of public economic data.",
-  "count": 12,
+  "count": 13,
   "by_status": {
-    "live": 12
+    "live": 13
   },
   "entries": [
     {
@@ -425,6 +425,57 @@
       "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
       "attribution": "Eurostat",
       "notes": "Human-verified 2026-10-31 in headless Chromium: HTTP 200, page \"NATIONAL ACCOUNTS Database\" with selected and detailed datasets and a data revisions section. Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. The ESA 2010 framing and the quarterly cadence for main aggregates come from Eurostat's usual metadata and weren't checked here. The generic /web/economy/database URL returned 404, so this entry uses the national accounts theme.\n"
+    },
+    {
+      "id": "oecd-data-explorer-economy",
+      "type": "dataset",
+      "title": "OECD Data Explorer — Economic Statistics",
+      "description": "The OECD's statistical database, browsed here for its economy theme: Economic Outlook projections, national accounts, short-term economic statistics, prices, productivity, leading indicators and tendency surveys, and the external sector, for OECD members and partner economies, with an SDMX API.\n",
+      "publisher": "Organisation for Economic Co-operation and Development (OECD)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
+      "topics": [
+        "national-accounts",
+        "prices",
+        "economic-outlook",
+        "international-comparison",
+        "global"
+      ],
+      "source": {
+        "canonical_url": "https://data-explorer.oecd.org/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "sdmx"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "OECD member countries and selected partner economies",
+        "temporal": "varies by dataset",
+        "cadence": "irregular"
+      },
+      "license": "unverified — OECD terms page (oecd.org/en/about/terms-conditions.html) is behind a Cloudflare bot challenge and could not be read",
+      "attribution": "OECD, OECD Data Explorer (use the citation given with each dataset)",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium). The page reads \"OECD Data Explorer. Find, understand and use the data you need\", and its Economy topic lists \"Corporate sector\", \"External sector\", \"Leading indicators and tendency surveys\", \"Prices\", \"Productivity\", \"Economic outlook\", \"National accounts\", \"Short-term economic statistics\" and \"Subnational economy\". The Data Explorer covers every OECD theme; this entry is scoped to its economic statistics. Other verticals catalog specific OECD datasets (housing: oecd-house-price-indices; labor: oecd-employment-labour-market; migration, tech). The SDMX endpoint https://sdmx.oecd.org/public/rest/dataflow/all?detail=allstubs returned HTTP 200 with 1552 dataflows, including DF_EO (Economic Outlook). The footer links \"API documentation\" to https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html, which I did not read. CSV is offered by the Download button; I did not test it.\nLicence checked 2026-11-01: not verified. The Data Explorer footer links \"Terms & conditions\" to https://www.oecd.org/en/about/terms-conditions.html, which returned a Cloudflare \"Just a moment...\" 403 to headless Chromium three times and a 403 to WebFetch. The labor-almanac oecd-employment-labour-market entry, checked on 2026-10-31, quotes that page's \"3. Data\" section as permitting reuse \"for any purpose, even for commercial use\" with credit to the OECD, and says it is not CC BY 4.0. I did not read it myself, so no licence is asserted.\n"
     },
     {
       "id": "sec-edgar",
