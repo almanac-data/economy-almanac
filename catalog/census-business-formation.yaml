@@ -34,6 +34,13 @@ observed:
   final_url: https://www.census.gov/econ/bfs/index.html
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261104213701/https://www.census.gov/econ/bfs/index.html
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-04'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now.'
 coverage:
   spatial: United States
   temporal: 2004-present
