@@ -44,7 +44,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bea.gov/data",
@@ -96,7 +96,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bea.gov/data/intl-trade-investment",
@@ -148,7 +148,7 @@
       "status_since": "2026-08-13",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bea.gov/data/economic-accounts/regional",
@@ -202,7 +202,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data.bis.org/",
@@ -252,7 +252,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.bankofengland.co.uk/boeapps/database/",
@@ -304,7 +304,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/econ/bfs/index.html",
@@ -356,7 +356,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/programs-surveys/economic-census.html",
@@ -410,7 +410,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/economic-indicators/",
@@ -463,7 +463,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data.ecb.europa.eu/",
@@ -518,7 +518,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://ec.europa.eu/eurostat/web/national-accounts/database",
@@ -567,7 +567,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://fred.stlouisfed.org/",
@@ -616,7 +616,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data.imf.org/en",
@@ -669,7 +669,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data-explorer.oecd.org/",
@@ -723,7 +723,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.sec.gov/edgar",
@@ -777,7 +777,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://fiscaldata.treasury.gov/",
@@ -830,7 +830,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://comtradeplus.un.org/",
@@ -882,7 +882,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://wid.world/",
@@ -936,7 +936,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators",
