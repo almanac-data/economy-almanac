@@ -36,6 +36,13 @@ observed:
   final_url: https://www.sec.gov/edgar
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20240628101759/https://www.sec.gov/edgar
+  authenticity: timestamped
+  permission: ok
+  captured: '2024-06-28'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United States
   temporal: 1994-present
